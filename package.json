@@ -27,7 +27,7 @@
     "@types/nodegit": "^0.24.6",
     "gray-matter": "^4.0.2",
     "lodash": "^4.17.11",
-    "nest-schedule": "^0.5.0",
+    "nest-schedule": "^0.6.0",
     "nestjs-config": "^1.4.0",
     "nodegit": "^0.24.3",
     "reflect-metadata": "^0.1.12",

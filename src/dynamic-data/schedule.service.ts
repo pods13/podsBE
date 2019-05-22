@@ -12,7 +12,10 @@ export class ScheduleService extends NestSchedule {
         this.eventDataTasks = eventDataTasks;
     }
 
-    @Interval(5000)
+    @Interval(5000, {
+        waiting: true,
+        immediate: true
+    })
     @GitRepositoryWorkflow({
         url: process.env.WARFRAMEBLOG_REPO_URL, 
         directory: 'warframeblog', 
